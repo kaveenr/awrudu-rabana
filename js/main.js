@@ -1,5 +1,6 @@
 $("body").ready(function(){
   var freeverb = new Tone.Freeverb().toMaster();
+
   var env = new Tone.Envelope({
   	"attack" : 0,
   	"decay" : 0.1,
