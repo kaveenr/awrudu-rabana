@@ -20,10 +20,19 @@ $("body").ready(function(){
 
   $("body").keydown(function(event) {
     if(event.keyCode == 90){
+      anim();
       rabana1.triggerAttack(0, "+0.2", 1);
     }else if(event.keyCode == 191){
+      anim();
       rabana2.triggerAttack(0, "+0.2", 1);
     }
   });
+
+  function anim(){
+    $(".visual").addClass("visual-boom");
+    setTimeout(function(){
+      $(".visual").removeClass("visual-boom");
+    },100);
+  }
 
 })
