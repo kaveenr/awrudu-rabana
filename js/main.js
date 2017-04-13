@@ -7,9 +7,9 @@ $("body").ready(function(){
   	"release" : 0.5,
   });
 
-  var rabana1 = new Tone.Sampler("./samples/Rabana_1.wav").connect(freeverb);
+  var rabana1 = new Tone.Sampler("samples/Rabana_1.wav").connect(freeverb);
 
-  var rabana2 = new Tone.Sampler("./samples/Rabana_2.wav").connect(freeverb);
+  var rabana2 = new Tone.Sampler("samples/Rabana_2.wav").connect(freeverb);
 
   rabana1.envelope = env;
   rabana2.envelope = env;
