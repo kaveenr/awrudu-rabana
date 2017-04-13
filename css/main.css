@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  font-family: 'Abhaya Libre', serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.mid-container{
+  margin: auto;
+}
+.drums {
+  width: 30vw;
+}
+
+.action-bar{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  text-align: right;
+  padding: 10px 20px;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+
+.mini-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 1em 0;
+}
+
+.mini-nav li {
+  display: inline;
+  font-size: 1.3em;
+}
+
+.mini-nav a {
+  color: #000;
+}
+
+.mini-nav a:hover {
+  text-decoration: none;
+  border-bottom: 2px dotted #000;
+}
+
+.mini-nav li:after {
+  content: "/";
+  padding: 0 0.5em;
+}
+
+.mini-nav li:last-child:after {
+  content: none;
+  padding: 0 0;
+}
